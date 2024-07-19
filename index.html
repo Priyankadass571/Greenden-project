@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind Css CDN Link-->
+    <Link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Responsive Navbar-->
+
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+<!--side navbar-->
+<section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width:50%; height:100vh; right:-50%;">
+    <div class="text-right p-5">
+        <p id="closenav" class="inline cursor-pointer">X</p>
+
+    </div>
+    
+    
+    <ul class="flex flex-col gap-10  items-center text-gray-600">
+        <li>
+            <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="product.html">Product</a>
+        </li>
+        <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+
+
+
+</section>
+
+
+    <!--Header Section-->
+    <section class="bg-green-100 px-4 md:p-13 py-4 flex justify-center">
+        <div>
+
+            <p class="mb-4">We Offer You a wide Range of Artificial and Natural Flowers</p>
+            <h1 class="font-bold text-3xl mb-5">Plants for your Interior</h1>
+            <div>
+                <button class="bg-black p-2 text-white rounded">Shop Now</button>
+                <button class="border border-black rounded p-2">Watch Video</button>
+            </div>
+
+            <p class="mt-4">160+ Plant Species |100+ clients</p>
+
+        </div>
+        <div class="hidden md:block p-5 ">
+            <img src="./images/plantcover1.jpg" class="w-80">
+
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="text-center">
+        <h1 class="font-bold text-3xl mt-5">About Us</h1>
+        <p>This site for those who admire the beauty and harmony of nature</p>
+        <div class="md:flex">
+            <div class="border border-black p-2 m-6">
+                <img src="./images/wirte.png" class="w-9 inline">
+                <h2 class="text-xl font-medium">Large Assortment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum architecto rem delectus dignissimos
+                    consequatur itaque. Inventore similique voluptas cupiditate eveniet illum facere maiores. Atque,
+                    earum facere doloremque unde exercitationem nostrum!</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <img src="./images/circle.png" class="w-9 inline">
+                <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, possimus architecto officia
+                    quo libero temporibus dolorem laborum hic totam maiores exercitationem, optio numquam nihil corrupti
+                    explicabo nobis molestias dolore odit.</p>
+
+            </div>
+            <div class="border border-black p-2 m-6">
+                <img src="./images/phone.png" class="w-9 inline">
+                <h2 class="text-xl font-medium">24/7 Support</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt adipisci provident, in, pariatur nihil
+                    quasi incidunt delectus minima quia omnis qui voluptatibus hic iusto harum, suscipit labore corrupti
+                    eum a.</p>
+
+            </div>
+        </div>
+
+
+        <!--Best Seller-->
+        <section class="p-4">
+            <h1 class="font-black mt-5 text-3xl">Best Seller</h1>
+            <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+                <div>
+                    <img src="./images/bestseller1.jpg" class="inline hover shadow-xl transform hover:translate-y-2">
+                    <h1>Rose Plant</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/bestseller2.jpg" class="inline hover shadow-xl transform hover:translate-y-2">
+                    <h1>Lily Plant</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/bestseller3.jpg" class="inline hover shadow-xl transform hover:translate-y-2">
+                    <h1>Hibiscus Rose</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img src="./images/bestseller4.jpg" class="inline hover shadow-xl transform hover:translate-y-2">
+                    <h1>Snake Plant</h1>
+                    <p>$20</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Customer Riview-->
+
+        <section>
+            
+                <h1 class="font-bold text-3xl mt-5 text-center">Customer Riviews</h1>
+           
+            <div class="flex justify-center gap-5 text-white m-5">
+                <div class="bg-green-900 p-5 container" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Est praesentium officia labore totam, quaerat possimus quisquam.
+                    Magnam perferendis beatae harum aliquid sapiente corrupti, blanditiis quae
+                    quasi enim. Ratione, dolore? Vitae?</p>
+                <p class="text-yellow-200 font-bold">Genny Mathew</p>
+                </div>
+
+
+            </div>
+            <div class="flex justify-center gap-5 text-white m-5">
+                <div class="bg-green-900 p-5 container" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Est praesentium officia labore totam, quaerat possimus quisquam.
+                    Magnam perferendis beatae harum aliquid sapiente corrupti, blanditiis quae
+                    quasi enim. Ratione, dolore? Vitae?</p>
+                <p class="text-yellow-200 font-bold">Jim</p>
+                </div>
+
+
+            </div>
+            <div class="flex justify-center gap-5 text-white m-5">
+                <div class="bg-green-900 p-5 container" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Est praesentium officia labore totam, quaerat possimus quisquam.
+                    Magnam perferendis beatae harum aliquid sapiente corrupti, blanditiis quae
+                    quasi enim. Ratione, dolore? Vitae?</p>
+                <p class="text-yellow-200 font-bold">Amir</p>
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </section>
+
+    <!--News Letter-->
+    <section>
+        <div>
+            <h1 class="font-bold text-2xl flex justify-center">Join Our News Letter</h1>
+            <p class="flex justify-center m-1">
+                Signup for our email newspaper to get exclusive discounts,updatesand more
+            </p>
+           <p class="flex justify-center">
+            <input type="text" class="border border-black p-2 m-3" style="width:80%"></p>
+            <br>
+            <p class="flex justify-center">
+            <button class="bg-black text-white p-3 m-1 mb-15 underline ">Subscribe</button></p>
+            
+        </div>
+    </section>
+
+    <!--footer-->
+    <section>
+        <div class="p-14 bg-green-100 mt-3 flex flex-col gap-5">
+            <h1 class="font-bold text-3xl text-black">Greenden</h1>
+            <p>The Standard chunk of lorem ipsum used since the 1500s is reproduce below for those</p>
+            <p>@2024 Greenday.com</p>
+        </div>
+    </section>
+
+    <script src="index.js">
+
+    </script>
+
+</body>
+
+</html>
